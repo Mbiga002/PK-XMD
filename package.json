@@ -6,7 +6,11 @@
   "scripts": {
     "start": "node index.js",
     "stop": "pm2 stop PK-XMD",
-    "restart": "pm2 restart PK-XMD"
+   
+  },
+  "engines": {
+    "node": "18.x"
+  }, "restart": "pm2 restart PK-XMD"
   },
   "dependencies": {
     "@whiskeysockets/baileys": "^6.7.9",
